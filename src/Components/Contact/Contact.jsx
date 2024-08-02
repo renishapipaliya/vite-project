@@ -26,7 +26,7 @@ const Contact = () => {
 
     return (
         <div className='container mx-auto px-4 py-24'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-14 place-items-center'>
+            <div className='flex justify-center gap-14 place-items-center'>
                 <form className='space-y-5 w-full max-w-lg' ref={form} onSubmit={sendEmail}>
                     <motion.h1
                         className='text-2xl font-semibold'
@@ -87,7 +87,7 @@ const Contact = () => {
                     </motion.button>
                     <ToastContainer />
                 </form>
-                <div className='relative'>
+                {/* <div className='relative'>
                     <motion.img
                         initial={{ opacity: 0, x: -100, y: 100 }}
                         whileInView={{ opacity: 1, x: 0, y: 0 }}
@@ -103,7 +103,7 @@ const Contact = () => {
                         transition={{ duration: 0.6, delay: 0.5 }}
                         className='absolute top-[50%] right-[50%] transform translate-x-[50%] translate-y-[-50%] h-80 w-80 bg-lightYellow md:h-[411px] md:w-[400px] rounded-t-full'
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );

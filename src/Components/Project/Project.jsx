@@ -54,7 +54,7 @@ const Project = () => {
                     variants={SlideUp(0.2)}
                     initial="hidden"
                     whileInView={"show"}
-                    className='text-4xl text-center font-league font-semibold uppercase py-8'
+                    className='text-4xl text-center tracking-wide font-league font-semibold uppercase py-8'
                 >
                     Projects
                 </motion.h3>
@@ -71,14 +71,14 @@ const Project = () => {
                                 <img
                                     src={item.img}
                                     alt={item.name}
-                                    className='w-full sm:w-80 p-2 pt-8 mx-auto img-shadow group-hover:scale-110
+                                    className='w-full sm:w-80 p-2 pt-8 mx-auto group-hover:scale-110
                                  group-hover:translate-y-1 group-hover:cursor-zoom-out transition-all duration-400'
                                 />
                             </a>
                             <div>
-                                <p className='text-xl font-semibold'>{item.name}</p>
+                                <p className='text-xl font-semibold mt-3 '>{item.name}</p>
                                 <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                    <button className='btn-primary'>Open now</button>
+                                    <button className='btn-primary mt-3'>Open now</button>
                                 </a>
                             </div>
                         </motion.div>

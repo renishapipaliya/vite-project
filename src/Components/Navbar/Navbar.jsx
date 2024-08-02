@@ -57,7 +57,7 @@ const Navbar = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className='text-2xl font-bold uppercase text-outline text-transparent'
+          className='text-2xl font-semibold tracking-wider uppercase text-outline '
         >
           RENISHA
         </motion.h1>

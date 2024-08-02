@@ -77,6 +77,7 @@ const Hero = () => {
             <motion.img
               initial={{ opacity: 0, rotate: 20, x: 200, y: 100 }}
               whileInView={{ opacity: 1, rotate: 0, x: 0, y: 0 }}
+              
               transition={{ duration: 0.6 }}
               src={Renisha} alt='' className='w-full max-w-xs md:max-w-md lg:max-w-lg xl:max-w-xl img-shadow pt-20' />
           </div>

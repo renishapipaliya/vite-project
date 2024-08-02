@@ -89,7 +89,7 @@ const Skill = () => {
                                 whileInView="show"
                                 className='group bg-white/50 shadow-md p-3 m-3 rounded-lg'>
                                 <div className='flex gap-4 items-center'>
-                                    <img src={item.img} alt={item.name} className='w-20 h-20 rounded-full img-shadow group-hover:scale-125 transition-all duration-700 group-hover:rotate-[50deg]' />
+                                    <img src={item.img} alt={item.name} className='w-20 h-20 rounded-full ' />
                                     <div>
                                         <h3 className='text-xl font-semibold'>{item.name}</h3>
                                         <p className='text-xl text-yellow-500'>{item.Percentage}</p>
